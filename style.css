@@ -1,0 +1,55 @@
+.tarea-nueva{
+    height: 50px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tarea-nueva:hover{
+    border-width: 2px;
+
+}
+
+.contenedor{
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.conten-1, .conten-2{
+    margin: 2px;
+    width: 50%;
+}
+
+
+.nombre-tarea{
+    margin: 5px 0px 10px 0px;
+    width: 70%;
+}
+
+.color-tarea, .color-letra{
+    border: none;
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.des-tarea{
+    width: 97%;
+    height: 70%;
+}
+
+.add-button{
+    margin: 5px;
+}
+
+.tareas-conten{
+    display: flex;
+    justify-content: center;
+}
+
+.tareas{
+    width: 100%;
+}
